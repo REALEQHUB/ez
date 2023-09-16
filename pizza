@@ -1,0 +1,263 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local Frame_2 = Instance.new("Frame")
+local Frame_3 = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local TextLabel_4 = Instance.new("TextLabel")
+local TextLabel_5 = Instance.new("TextLabel")
+local TextLabel_6 = Instance.new("TextLabel")
+local TextLabel_7 = Instance.new("TextLabel")
+local TextLabel_8 = Instance.new("TextLabel")
+local TextLabel_9 = Instance.new("TextLabel")
+local TextLabel_10 = Instance.new("TextLabel")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BackgroundTransparency = 0.600
+Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderSizePixel = 0
+Frame.Size = UDim2.new(0, 1534, 0, 652)
+
+Frame_2.Parent = ScreenGui
+Frame_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame_2.BackgroundTransparency = 0.600
+Frame_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_2.BorderSizePixel = 0
+Frame_2.Size = UDim2.new(0, 1534, 0, 763)
+
+Frame_3.Parent = ScreenGui
+Frame_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame_3.BackgroundTransparency = 0.600
+Frame_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_3.BorderSizePixel = 0
+Frame_3.Position = UDim2.new(0, 0, 1, 0)
+Frame_3.Size = UDim2.new(0, 1534, 0, 110)
+
+TextLabel.Parent = ScreenGui
+TextLabel.BackgroundColor3 = Color3.fromRGB(163, 163, 163)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.270464033, 0, 0.230061352, 0)
+TextLabel.Size = UDim2.new(0, 580, 0, 28)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Start in {"
+TextLabel.TextColor3 = Color3.fromRGB(47, 255, 43)
+TextLabel.TextSize = 30.000
+TextLabel.TextStrokeColor3 = Color3.fromRGB(61, 61, 61)
+
+TextLabel_2.Parent = ScreenGui
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(163, 163, 163)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(0.270464033, 0, 0.116564415, 0)
+TextLabel_2.Size = UDim2.new(0, 580, 0, 82)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "Welcome To Eq Hub"
+TextLabel_2.TextColor3 = Color3.fromRGB(47, 255, 43)
+TextLabel_2.TextSize = 55.000
+TextLabel_2.TextStrokeColor3 = Color3.fromRGB(61, 61, 61)
+
+TextLabel_3.Parent = ScreenGui
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(163, 163, 163)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Position = UDim2.new(0.270464033, 0, 0.365030676, 0)
+TextLabel_3.Size = UDim2.new(0, 580, 0, 51)
+TextLabel_3.Font = Enum.Font.SourceSans
+TextLabel_3.Text = "..\\  /.."
+TextLabel_3.TextColor3 = Color3.fromRGB(47, 255, 43)
+TextLabel_3.TextSize = 55.000
+TextLabel_3.TextStrokeColor3 = Color3.fromRGB(61, 61, 61)
+
+TextLabel_4.Parent = ScreenGui
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(163, 163, 163)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.BorderSizePixel = 0
+TextLabel_4.Position = UDim2.new(0.270464033, 0, 0.309815943, 0)
+TextLabel_4.Size = UDim2.new(0, 580, 0, 51)
+TextLabel_4.Font = Enum.Font.SourceSans
+TextLabel_4.Text = "../  \\.."
+TextLabel_4.TextColor3 = Color3.fromRGB(47, 255, 43)
+TextLabel_4.TextSize = 55.000
+TextLabel_4.TextStrokeColor3 = Color3.fromRGB(61, 61, 61)
+
+TextLabel_5.Parent = ScreenGui
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(163, 163, 163)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_5.BorderSizePixel = 0
+TextLabel_5.Position = UDim2.new(0.270464033, 0, 0.345091999, 0)
+TextLabel_5.Size = UDim2.new(0, 580, 0, 51)
+TextLabel_5.Font = Enum.Font.SourceSans
+TextLabel_5.Text = "5"
+TextLabel_5.TextColor3 = Color3.fromRGB(47, 255, 43)
+TextLabel_5.TextSize = 55.000
+TextLabel_5.TextStrokeColor3 = Color3.fromRGB(61, 61, 61)
+wait(1)
+TextLabel_5.TextTransparency = 1.000
+wait()
+TextLabel_6.Parent = ScreenGui
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(163, 163, 163)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_6.BorderSizePixel = 0
+TextLabel_6.Position = UDim2.new(0.270464033, 0, 0.345091999, 0)
+TextLabel_6.Size = UDim2.new(0, 580, 0, 51)
+TextLabel_6.Font = Enum.Font.SourceSans
+TextLabel_6.Text = "4"
+TextLabel_6.TextColor3 = Color3.fromRGB(47, 255, 43)
+TextLabel_6.TextSize = 55.000
+TextLabel_6.TextStrokeColor3 = Color3.fromRGB(61, 61, 61)
+wait(1)
+TextLabel_6.TextTransparency = 1.000
+wait()
+TextLabel_7.Parent = ScreenGui
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(163, 163, 163)
+TextLabel_7.BackgroundTransparency = 1.000
+TextLabel_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_7.BorderSizePixel = 0
+TextLabel_7.Position = UDim2.new(0.270464033, 0, 0.345091999, 0)
+TextLabel_7.Size = UDim2.new(0, 580, 0, 51)
+TextLabel_7.Font = Enum.Font.SourceSans
+TextLabel_7.Text = "3"
+TextLabel_7.TextColor3 = Color3.fromRGB(47, 255, 43)
+TextLabel_7.TextSize = 55.000
+TextLabel_7.TextStrokeColor3 = Color3.fromRGB(61, 61, 61)
+wait(1)
+TextLabel_7.TextTransparency = 1.000
+wait()
+TextLabel_8.Parent = ScreenGui
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(163, 163, 163)
+TextLabel_8.BackgroundTransparency = 1.000
+TextLabel_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_8.BorderSizePixel = 0
+TextLabel_8.Position = UDim2.new(0.270464033, 0, 0.345091999, 0)
+TextLabel_8.Size = UDim2.new(0, 580, 0, 51)
+TextLabel_8.Font = Enum.Font.SourceSans
+TextLabel_8.Text = "2"
+TextLabel_8.TextColor3 = Color3.fromRGB(47, 255, 43)
+TextLabel_8.TextSize = 55.000
+TextLabel_8.TextStrokeColor3 = Color3.fromRGB(61, 61, 61)
+wait(1)
+TextLabel_8.TextTransparency = 1.000
+wait()
+TextLabel_9.Parent = ScreenGui
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(163, 163, 163)
+TextLabel_9.BackgroundTransparency = 1.000
+TextLabel_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_9.BorderSizePixel = 0
+TextLabel_9.Position = UDim2.new(0.270464033, 0, 0.345091999, 0)
+TextLabel_9.Size = UDim2.new(0, 580, 0, 51)
+TextLabel_9.Font = Enum.Font.SourceSans
+TextLabel_9.Text = "1"
+TextLabel_9.TextColor3 = Color3.fromRGB(47, 255, 43)
+TextLabel_9.TextSize = 55.000
+TextLabel_9.TextStrokeColor3 = Color3.fromRGB(61, 61, 61)
+wait(1)
+TextLabel_9.TextTransparency = 1.000
+wait()
+TextLabel_10.Parent = ScreenGui
+TextLabel_10.BackgroundColor3 = Color3.fromRGB(163, 163, 163)
+TextLabel_10.BackgroundTransparency = 1.000
+TextLabel_10.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_10.BorderSizePixel = 0
+TextLabel_10.Position = UDim2.new(0.270464033, 0, 0.345091999, 0)
+TextLabel_10.Size = UDim2.new(0, 580, 0, 51)
+TextLabel_10.Font = Enum.Font.SourceSans
+TextLabel_10.Text = "0"
+TextLabel_10.TextColor3 = Color3.fromRGB(47, 255, 43)
+TextLabel_10.TextSize = 55.000
+TextLabel_10.TextStrokeColor3 = Color3.fromRGB(61, 61, 61)
+wait(1)
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.Enabled = false
+-----------------w-------------------------------------------------------
+----------------w-w-------------------------------------------------------
+---------------w---w------------------------------------------------------
+--------------w-----w-----------------------------------------------------
+-------------w-------w----------------------------------------------------
+------------w---------w---------------------------------------------------
+-----------w-----------w--------------------------------------------------
+----------w-------------w-------------------------------------------------
+---------w---------------w------------------------------------------------
+--------w-----------------w-----------------------------------------------
+-------w w w w w w w w w w w----------------------------------------------
+------w---------------------w---------------------------------------------
+-----w-----------------------w--------------------------------------------
+----w-------------------------w-------------------------------------------
+---w---------------------------w------------------------------------------
+--w-----------------------------w-----------------------------------------
+wait()
+-- Eq Hub Version Script
+--Gui To Lua
+
+-- Version: 3.2
+   --            /=  ("getsenv(local;script())" 
+ -- Instances:  / =  ("GetFullName())
+
+local ScreenGui = Instance.new("ScreenGui")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+TextLabel.Parent = ScreenGui
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.919577658, 0, 0.967791438, 0)
+TextLabel.Size = UDim2.new(0, 134, 0, 28)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Version v.012"
+TextLabel.TextColor3 = Color3.fromRGB(255, 0, 0)
+TextLabel.TextSize = 17.000
+
+TextLabel_2.Parent = ScreenGui
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(0.889598608, 0, 0.957055211, 0)
+TextLabel_2.Size = UDim2.new(0, 86, 0, 28)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "Eq Hub"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 0, 0)
+TextLabel_2.TextSize = 17.000
+
+TextLabel_3.Parent = ScreenGui
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Position = UDim2.new(0.905891597, 0, 0.957055211, 0)
+TextLabel_3.Size = UDim2.new(0, 86, 0, 28)
+TextLabel_3.Font = Enum.Font.SourceSans
+TextLabel_3.Text = "/"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 0, 0)
+TextLabel_3.TextSize = 19.000
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("EQ Hub", "Ocean")
+local Tab = Window:NewTab("Main")
+local Section = Tab:NewSection("[See You Again]")
+Section:NewButton("", "ButtonInfo", function()
+    
+end)
